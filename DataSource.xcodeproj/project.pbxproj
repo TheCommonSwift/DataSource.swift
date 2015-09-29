@@ -10,6 +10,8 @@
 		9AB3DAA31BBAA94B009A9332 /* DataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AB3DAA21BBAA94B009A9332 /* DataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9AB3DAAA1BBAA94B009A9332 /* DataSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB3DA9F1BBAA94B009A9332 /* DataSource.framework */; settings = {ASSET_TAGS = (); }; };
 		9AB3DAAF1BBAA94B009A9332 /* DataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB3DAAE1BBAA94B009A9332 /* DataSourceTests.swift */; };
+		9AB3DABA1BBACAB4009A9332 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB3DAB91BBACAB4009A9332 /* DataProvider.swift */; settings = {ASSET_TAGS = (); }; };
+		9AB3DABC1BBACAD7009A9332 /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB3DABB1BBACAD7009A9332 /* TableViewDataSource.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		9AB3DAA91BBAA94B009A9332 /* DataSourceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataSourceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB3DAAE1BBAA94B009A9332 /* DataSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceTests.swift; sourceTree = "<group>"; };
 		9AB3DAB01BBAA94B009A9332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AB3DAB91BBACAB4009A9332 /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		9AB3DABB1BBACAD7009A9332 /* TableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 		9AB3DAA11BBAA94B009A9332 /* DataSource */ = {
 			isa = PBXGroup;
 			children = (
+				9AB3DABB1BBACAD7009A9332 /* TableViewDataSource.swift */,
+				9AB3DAB91BBACAB4009A9332 /* DataProvider.swift */,
 				9AB3DAA21BBAA94B009A9332 /* DataSource.h */,
 				9AB3DAA41BBAA94B009A9332 /* Info.plist */,
 			);
@@ -193,6 +199,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AB3DABC1BBACAD7009A9332 /* TableViewDataSource.swift in Sources */,
+				9AB3DABA1BBACAB4009A9332 /* DataProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
