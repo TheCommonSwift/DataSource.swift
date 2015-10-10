@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1158A1D91BC927570062B067 /* CollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1158A1D81BC927570062B067 /* CollectionViewDataSource.swift */; settings = {ASSET_TAGS = (); }; };
 		9AB3DAA31BBAA94B009A9332 /* DataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AB3DAA21BBAA94B009A9332 /* DataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9AB3DAAA1BBAA94B009A9332 /* DataSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB3DA9F1BBAA94B009A9332 /* DataSource.framework */; settings = {ASSET_TAGS = (); }; };
 		9AB3DAAF1BBAA94B009A9332 /* DataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB3DAAE1BBAA94B009A9332 /* DataSourceTests.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1158A1D81BC927570062B067 /* CollectionViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewDataSource.swift; sourceTree = "<group>"; };
 		9AB3DA9F1BBAA94B009A9332 /* DataSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DataSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB3DAA21BBAA94B009A9332 /* DataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
 		9AB3DAA41BBAA94B009A9332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 		9AB3DAA11BBAA94B009A9332 /* DataSource */ = {
 			isa = PBXGroup;
 			children = (
+				1158A1D81BC927570062B067 /* CollectionViewDataSource.swift */,
 				9AB3DABB1BBACAD7009A9332 /* TableViewDataSource.swift */,
 				9AB3DAB91BBACAB4009A9332 /* DataProvider.swift */,
 				9AB3DAA21BBAA94B009A9332 /* DataSource.h */,
@@ -218,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AB3DABC1BBACAD7009A9332 /* TableViewDataSource.swift in Sources */,
+				1158A1D91BC927570062B067 /* CollectionViewDataSource.swift in Sources */,
 				9AB3DABA1BBACAB4009A9332 /* DataProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
