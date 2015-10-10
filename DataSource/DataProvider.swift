@@ -5,5 +5,3 @@ protocol DataProvider {
 	func numberOfRowsInSection(section: Int) -> Int
 	func objectAtIndexPath(indexPath: NSIndexPath) -> AnyObject
 }
-
-
