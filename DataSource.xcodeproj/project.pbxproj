@@ -114,6 +114,7 @@
 				9AB3DA9B1BBAA94B009A9332 /* Frameworks */,
 				9AB3DA9C1BBAA94B009A9332 /* Headers */,
 				9AB3DA9D1BBAA94B009A9332 /* Resources */,
+				1158A1D61BC916CE0062B067 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -193,6 +194,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1158A1D61BC916CE0062B067 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /usr/local/bin/swiftlint;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9AB3DA9A1BBAA94B009A9332 /* Sources */ = {
@@ -383,6 +401,7 @@
 				9AB3DAB51BBAA94B009A9332 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AB3DAB61BBAA94B009A9332 /* Build configuration list for PBXNativeTarget "DataSourceTests" */ = {
 			isa = XCConfigurationList;
@@ -391,6 +410,7 @@
 				9AB3DAB81BBAA94B009A9332 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
