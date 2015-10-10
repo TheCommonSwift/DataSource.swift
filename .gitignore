@@ -16,3 +16,4 @@ xcuserdata
 *.hmap
 *.ipa
 Carthage/Build
+.DS_Store
